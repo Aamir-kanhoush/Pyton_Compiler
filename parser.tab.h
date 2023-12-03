@@ -29,29 +29,53 @@
    /* Put the tokens into the symbol table, so that GDB and other debuggers
       know about them.  */
    enum yytokentype {
-     NUMBER = 258,
-     STRING = 259,
-     OPERATOR = 260,
-     IDENTIFIER = 261,
-     LPAREN = 262,
-     RPAREN = 263,
-     NEWLINE = 264,
-     RETURN = 265,
-     PRINT = 266,
-     ASSIGN = 267
+     Yield = 258,
+     Nonlocal = 259,
+     Global = 260,
+     Num = 261,
+     ID = 262,
+     Semi = 263,
+     Sub = 264,
+     Add = 265,
+     While = 266,
+     If = 267,
+     Rbrace = 268,
+     Lbrace = 269,
+     Rparen = 270,
+     Lparen = 271,
+     Equal = 272,
+     Assign = 273,
+     Float = 274,
+     Int = 275,
+     ADD = 276,
+     Return = 277,
+     Break = 278,
+     Continue = 279
    };
 #endif
 /* Tokens.  */
-#define NUMBER 258
-#define STRING 259
-#define OPERATOR 260
-#define IDENTIFIER 261
-#define LPAREN 262
-#define RPAREN 263
-#define NEWLINE 264
-#define RETURN 265
-#define PRINT 266
-#define ASSIGN 267
+#define Yield 258
+#define Nonlocal 259
+#define Global 260
+#define Num 261
+#define ID 262
+#define Semi 263
+#define Sub 264
+#define Add 265
+#define While 266
+#define If 267
+#define Rbrace 268
+#define Lbrace 269
+#define Rparen 270
+#define Lparen 271
+#define Equal 272
+#define Assign 273
+#define Float 274
+#define Int 275
+#define ADD 276
+#define Return 277
+#define Break 278
+#define Continue 279
 
 
 

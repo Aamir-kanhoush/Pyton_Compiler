@@ -1,4 +1,4 @@
-all:
-flex lexer.l 
+
+flex lexer2.l 
 bison -d parser.y
 gcc lex.yy.c parser.tab.c -o parser
